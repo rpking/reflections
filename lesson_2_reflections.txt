@@ -10,3 +10,19 @@ repository? What value do you think it offers?
    The staging area indicates which things in the working directory are to
    be committed next.  It allows you to hold back some changed files for
    later, separate commit, by not adding them, yet, to the staging area.
+
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+   "git add" only those files that contain changes relevant to one particular
+   logical change and "git commit" those changes.  Other files with unrelated
+   changes will just be ignored.  Repeat as necessary.
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+   Branches help when different experimental changes would involve taking
+   the code in different directions.  The history of multiple changes
+   while following those directions can thereby be kept separate.
