@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Only changed lines are shown, so I can ignore unchanged lines more easily.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I wouldn't have to remember to save old versions somewhere, and I could
+    review those old versions to find old material, previously removed
+    (like code for disused features), that I now want back.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commits might be forgotten, especially when in a hurry or distracted.
+    The good part is that I get to decide what grouping of changes makes sense
+    in terms of the logic of the changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is for code and a code change might span multiple source files, while
+    Google Docs is for prose, which tends to involve changes to individual
+    files at any one time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    "git log" will show me the list of commits, their times, and messages;
+    "git diff" will show me what's different between what I had at the time
+    of one commit vs another.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I wouldn't worry so much about being unable to get a program working
+    again if I make some blunder in editting that changes something that I
+    didn't even intend to change in the first place.
+    I can go back (using checkout) and try old versions until I find the
+    version that introduced the problem, and then use diff with the previous
+    version to see what the blunder was.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'm not sure if git and eclipse get along together, so I'm curious to look
+    into that for saving versions of my Android apps.
