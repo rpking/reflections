@@ -26,3 +26,10 @@ history organized? How would branches help?
    Branches help when different experimental changes would involve taking
    the code in different directions.  The history of multiple changes
    while following those directions can thereby be kept separate.
+
+
+How do the diagrams help you visualize the branch structure?
+
+   They show which commits are the ones present in only certain subbranches and,
+   hence, which changes are only available in those branches.
+
