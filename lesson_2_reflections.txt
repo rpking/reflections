@@ -43,3 +43,8 @@ it in the diagram the way we do?
    make it clear where the resulting file contents came from.
 
 
+What are the pros and cons of Git's automatic merging vs.  always doingmerges manually?
+   Automatic merges save the user a lot of work that's pretty obvious, anyway.
+   However, it's possible for an automatic merge to introduce a bug.
+   They try to only do really obvious merges automatically, to minimize the
+   changes of bad merges.
