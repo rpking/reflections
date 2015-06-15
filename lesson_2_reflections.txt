@@ -33,3 +33,13 @@ How do the diagrams help you visualize the branch structure?
    They show which commits are the ones present in only certain subbranches and,
    hence, which changes are only available in those branches.
 
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+   The changes made in the files of both branches are merged to give a
+   single set of files with all of those changes combined.
+   The diagram shows the resulting commit point as having 2 parents to
+   make it clear where the resulting file contents came from.
+
+
