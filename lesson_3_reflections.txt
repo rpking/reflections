@@ -21,3 +21,10 @@ would you use one instead of another?
    be local, or on GitHub, or elsewhere.  Used for doing local work.
    A branch is a label for a linear subset of the commits in a repository.
    Used for segregating commits to keep different threads of work apart.
+
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+   You can tell it local is out-of-date, or remote, or if they're even
+   out-of-sync with respect to each other due to commit conflicts.
