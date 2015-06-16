@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+   (1) When I want other people to make contributions, or, at least, see it.
+   (2) To have a safe copy out on the GitHub site, to reduce the risk of losing something.
