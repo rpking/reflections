@@ -28,3 +28,29 @@ remote stored locally?
 
    You can tell it local is out-of-date, or remote, or if they're even
    out-of-sync with respect to each other due to commit conflicts.
+
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+   Master copy in a shared file system (e.g. NFS).
+   Changes (large and small) in separate copies, also on NFS for reviews.
+   Explicit chat w/collaborators to keep straight who's changing what, when.
+
+   Work in this way tends to be more segregated, with each person owning
+   certain parts of the project and only they make changes in their part.
+   There are few conflicts because each person just does their own job.
+   The conflicts created by interface changes are the biggest problem, and
+   these are usually resolved by serially, with the owner of the support
+   of the API handing the new interface definition to the owners of the
+   code that consumes the API.
+   This workflow tends to involve more up-front design and agreement on
+   breakdown of tasks, with areas of contention reduced to well-defined and
+   thought-out APIs.
+
+   Without any version control, all of the problems of doing essentially all
+   of the work of keeping changes straight, different versions, saving old
+   versions, etc, are there.
+   Also, any collaboration becomes exponentially more difficult as the
+   size of the group grows and especially when there are no well-defined
+   barriers between one person's work and another's.
