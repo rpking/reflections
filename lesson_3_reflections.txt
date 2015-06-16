@@ -54,3 +54,12 @@ easier, and what would be harder?
    Also, any collaboration becomes exponentially more difficult as the
    size of the group grows and especially when there are no well-defined
    barriers between one person's work and another's.
+
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+   Work in a separate branch can more easily be reviewed by collaborators as
+   part of a pull request out on GitHub.
+   Small changes that aren't going to need review might more easily be done
+   directly in master.
